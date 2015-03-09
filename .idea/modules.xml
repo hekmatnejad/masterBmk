@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/drl5/drl5.iml" filepath="$PROJECT_DIR$/drl5/drl5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drl6/drl6.iml" filepath="$PROJECT_DIR$/drl6/drl6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drlCommon/drlCommon.iml" filepath="$PROJECT_DIR$/drlCommon/drlCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drool5-Bmk/drool5-Bmk.iml" filepath="$PROJECT_DIR$/drool5-Bmk/drool5-Bmk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drool6-Bmk/drool6-Bmk.iml" filepath="$PROJECT_DIR$/drool6-Bmk/drool6-Bmk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/masterbmk.iml" filepath="$PROJECT_DIR$/masterbmk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicTypes/openCDS.iml" filepath="$PROJECT_DIR$/DynamicTypes/openCDS.iml" />
+    </modules>
+  </component>
+</project>
+
