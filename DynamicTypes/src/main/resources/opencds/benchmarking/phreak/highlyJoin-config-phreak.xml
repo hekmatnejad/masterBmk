@@ -6,10 +6,11 @@
     <param name="japex.resultUnit" value="ms"/>
     <param name="japex.warmupIterations" value="50"/>
     <param name="japex.runIterations" value="1"/>
-    <param name="japex.maxStep" value="50"/>
-    <param name="japex.engine" value="rete"/>
+    <param name="japex.maxStep" value="500"/>
+    <param name="japex.engine" value="phreak"/>      <!-- rete or phreak -->
     <param name="japex.disableProfiler" value="true"/>
-    <param name="japex.profilingTestCase" value="test6"/>
+    <param name="japex.profilingTestCase" value="test1"/>
+    <param name="japex.droolsVersion" value="5"/>       <!-- 5 or 6 -->
 
     <driver name="highly used join Native">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.HighlyUsedJoinNative"/>

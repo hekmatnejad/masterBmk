@@ -111,6 +111,7 @@ public class KBFacilitator implements KBSessionInterface {
         }
         KnowledgeBase knowledgeBase = KnowledgeBaseFactory.newKnowledgeBase();
         knowledgeBase.addKnowledgePackages( knowledgeBuilder.getKnowledgePackages() );
+        TraitFactory.setMode(TraitFactory.VirtualPropertyMode.MAP, knowledgeBase);
         return knowledgeBase;
 
     }
@@ -124,6 +125,7 @@ public class KBFacilitator implements KBSessionInterface {
         }
         KnowledgeBase knowledgeBase = KnowledgeBaseFactory.newKnowledgeBase();
         knowledgeBase.addKnowledgePackages( knowledgeBuilder.getKnowledgePackages() );
+        TraitFactory.setMode(TraitFactory.VirtualPropertyMode.MAP, knowledgeBase);
         return knowledgeBase;
 
 

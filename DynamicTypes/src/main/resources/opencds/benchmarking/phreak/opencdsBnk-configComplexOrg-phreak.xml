@@ -13,11 +13,11 @@
     <param name="japex.droolsVersion" value="5"/>     <!-- 5 or 6 -->
 
     <driver name="OpenCDS Native Complex">
-        <param name="japex.driverClass" value="opencds.benchmarking.phreak.OpenCdsBenchmarkingNativeComplex"/>
+        <param name="japex.driverClass" value="opencds.benchmarking.phreak.OpenCdsBenchmarkingNativeComplexOrg"/>
         <param name="description" value="OpenCDS Native Driver"/>
     </driver>
     <driver name="OpenCDS with Trait Complex">
-        <param name="japex.driverClass" value="opencds.benchmarking.phreak.OpenCdsBenchmarkingTraitComplex"/>
+        <param name="japex.driverClass" value="opencds.benchmarking.phreak.OpenCdsBenchmarkingTraitComplexOrg"/>
         <param name="description" value="OpenCDS Trait Driver"/>
     </driver>
 

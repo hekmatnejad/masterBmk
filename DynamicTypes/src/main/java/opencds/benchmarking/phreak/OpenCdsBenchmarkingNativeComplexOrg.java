@@ -13,17 +13,17 @@ import com.sun.japex.JapexDriver;
 import com.sun.japex.JapexDriverBase;
 import com.sun.japex.TestCase;
 import drools.traits.util.KBSessionInterface;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
 import static junit.framework.Assert.assertEquals;
 
 
-public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements JapexDriver {
+public class OpenCdsBenchmarkingNativeComplexOrg extends JapexDriverBase implements JapexDriver {
 
     private static String drl = "";
     private static int maxStep = 500;
-    //private static KieSession ksession = null;
     private static KBSessionInterface kbFacilitator;
     private static Collection<Object> facts = new ArrayList<Object>(maxStep);
     private double[][] warmups;
@@ -66,10 +66,10 @@ public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements
                 "   id : String \n" +
                 "end\n" +
                 "\n" +
-//                "declare CA\n" +
-//                "   tid : String \n" +
-//                "end\n" +
-//                "\n" +
+                "declare CA\n" +
+                "   tid : String \n" +
+                "end\n" +
+                "\n" +
                 "declare CB\n" +
                 "   tid : String \n" +
                 "end\n" +
@@ -78,12 +78,12 @@ public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements
                 "   tid : String \n" +
                 "   xid : String \n" +
                 "end\n" +
-//                "\n" +
-//                "declare CD\n" +
-//                "   tid : String \n" +
-//                "   sid : String \n" +
-//                "end\n" +
-//                "\n" +
+                "\n" +
+                "declare CD\n" +
+                "   tid : String \n" +
+                "   sid : String \n" +
+                "end\n" +
+                "\n" +
 //                "declare CCA\n" +
 //                "   id : String \n" +
 //                "end\n" +
@@ -101,16 +101,16 @@ public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements
         for(int i=0; i<=maxStep; i++){
 
             rule +=
-//                    "rule \"CA 1001"+i+"\"\n" +
-//                    "no-loop\n" +
-//                    "when\n" +
-//                    "    $obj : InputObject( $id : id == \"00A"+i+"\" )\n" +
-//                    "then\n" +
-//                    "    CA ca = new CA();\n" +
-//                    "    ca.setTid( $id );\n" +
-//                    "    insert( ca );\n" +
-//                    "end\n" +
-//                    "\n" +
+                    "rule \"CA 1001"+i+"\"\n" +
+                    "no-loop\n" +
+                    "when\n" +
+                    "    $obj : InputObject( $id : id == \"00A"+i+"\" )\n" +
+                    "then\n" +
+                    "    CA ca = new CA();\n" +
+                    "    ca.setTid( $id );\n" +
+                    "    insert( ca );\n" +
+                    "end\n" +
+                    "\n" +
                     "rule \"CB 1001"+i+"\"\n" +
                     "no-loop\n" +
                     "when\n" +
@@ -133,16 +133,16 @@ public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements
                     "end\n" +
                     "\n" +
                     "\n" +
-//                    "rule \"CD 1001"+i+"\"\n" +
-//                    "no-loop\n" +
-//                    "when\n" +
-//                    "    $obj : InputObject( $id : id == \"00C"+i+"\" )\n" +
-//                    "then\n" +
-//                    "    CD cd = new CD();\n" +
-//                    "    cd.setTid( \"00B"+i+"\" );\n" +
-//                    "    cd.setSid( \"00A"+i+"\" );\n" +
-//                    "    insert( cd );\n" +
-//                    "end\n" +
+                    "rule \"CD 1001"+i+"\"\n" +
+                    "no-loop\n" +
+                    "when\n" +
+                    "    $obj : InputObject( $id : id == \"00C"+i+"\" )\n" +
+                    "then\n" +
+                    "    CD cd = new CD();\n" +
+                    "    cd.setTid( \"00B"+i+"\" );\n" +
+                    "    cd.setSid( \"00A"+i+"\" );\n" +
+                    "    insert( cd );\n" +
+                    "end\n" +
 //                    "\n" +
 //                    "rule \"CCA 1001"+i+"\"\n" +
 //                    "no-loop\n" +
@@ -173,19 +173,26 @@ public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements
 //                    "    ca.setId( $id );\n" +
 //                    "    insert( ca );\n" +
 //                    "end\n" +
-//                    "\n" +
-//                    "\n" +
-//                    "\n" +
+                    "\n" +
+                    "\n" +
+                    "\n" +
                     "rule \"FinalCheck"+i+"\"\n" +
                     "no-loop\n" +
                     "when\n" +
-                  //  "    $x : CA( $ca : tid == \"00A"+i+"\" )\n" +
-                    "    $y : CB( $cb : tid == \"00B"+i+"\" )\n" +
-                    "    $z : CC( $cc : tid, xid == $cb )\n" +
-                   // "    $w : CD( sid == $ca, tid == $cb)\n" +
-                  //  "    $x2 : CCA( $cca : id == \"00CA"+i+"\" )\n" +
-                  //  "    $y2 : CCB( $ccb : id == \"00CB"+i+"\" )\n" +
-                   // "    $z2 : CCC( $ccc : id == \"00CC"+i+"\" )\n" +
+
+                            "    $x : CA( $ca : tid == \"00A"+i+"\" )\n" +
+                            "    $y : CB( $cb : tid == \"00B"+i+"\" )\n" +
+                            "    $z : CC( $cc : tid, xid == $cb )\n" +
+                            "    $w : CD( sid == $ca, tid == $cb)\n" +
+
+//                    "    $x : CA( $ca : tid == \"00A"+i+"\" )\n" +
+//                    "    $y : CB( $cb : tid == \"00B"+i+"\" )\n" +     //
+//                    "    $z : CC( $cc : tid, xid == $cb )\n" +         //
+//                    "    $w : CD( sid == $ca, tid == $cb)\n" +
+
+//                    "    $x2 : CCA( $cca : id == \"00CA"+i+"\" )\n" +
+//                    "    $y2 : CCB( $ccb : id == \"00CB"+i+"\" )\n" +
+//                    "    $z2 : CCC( $ccc : id == \"00CC"+i+"\" )\n" +
                     "then\n" +
                     "      //System.out.println($w);\n"+
                     "end\n" +
@@ -208,18 +215,14 @@ public class OpenCdsBenchmarkingNativeComplex extends JapexDriverBase implements
             kbFacilitator.createInstanceFromFactType("opencds.benchmarking.phreak","InputObject");
             for ( int j = 0; j < maxStep; j++ ) {
                 Object obj = null;
-                //obj = kbFacilitator.getNewInstanceFromFactType();
-                //kbFacilitator.setObjectProperty(obj,"id","00A"+j);
-                //facts.add(obj);
-                // kbFacilitator.insertToKB(obj);
-                //obj = kbFacilitator.getNewInstanceFromFactType();
-                //kbFacilitator.setObjectProperty(obj,"id","00B"+j);
+                obj = kbFacilitator.getNewInstanceFromFactType();
+                kbFacilitator.setObjectProperty(obj,"id","00A"+j);
+                facts.add(obj);
+                kbFacilitator.insertToKB(obj);
                 obj = kbFacilitator.getNewInstanceFromFactType();
                 kbFacilitator.setObjectProperty(obj, "id","00B"+j);
                 facts.add(obj);
                 kbFacilitator.insertToKB(obj);
-                //obj = kbFacilitator.getNewInstanceFromFactType();
-                //kbFacilitator.setObjectProperty(obj,"id","00C"+j);
                 obj = kbFacilitator.getNewInstanceFromFactType();
                 kbFacilitator.setObjectProperty(obj, "id","00C"+j);
                 facts.add(obj);

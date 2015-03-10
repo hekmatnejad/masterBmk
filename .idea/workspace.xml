@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d033dbe2-db0d-438c-b526-e7a40a4ae71e" name="Default" comment="" />
+    <list default="true" id="d033dbe2-db0d-438c-b526-e7a40a4ae71e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BasicDonMultiObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BasicInsertMultiObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinNative.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinTrait.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplexOrg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplexOrg.java" />
+      <change type="DELETED" beforePath="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\.idea\libraries\Maven__org_drools_drools_compiler_6_3_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\.idea\libraries\Maven__org_drools_drools_core_6_3_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\.idea\libraries\Maven__org_drools_drools_reteoo_6_3_0_SNAPSHOT.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkRunner.java" afterPath="$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drool6-Bmk/src/main/java/benchmark/BenchmarkRunner.java" afterPath="$PROJECT_DIR$/drool6-Bmk/src/main/java/benchmark/BenchmarkRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/java/benchmarking/BenchmarkUtil.java" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/benchmarking/BenchmarkUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drl5/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java" afterPath="$PROJECT_DIR$/drl5/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kie_kie_internal_6_3_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kie_kie_internal_6_3_0_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTrait.java" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTrait.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/TraitHelper.java" afterPath="$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/TraitHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/highlyJoin-config-phreak.xml" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/highlyJoin-config-phreak.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drl6/pom.xml" afterPath="$PROJECT_DIR$/drl6/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/traitDon-config-phreak.xml" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/traitDon-config-phreak.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\DynamicTypes\src\main\resources\opencds\benchmarking\phreak\isAProfiler-config-phreak.xml" afterPath="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplexOrg-phreak.xml" />
+    </list>
     <ignored path="masterbmk.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,39 +96,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TraitDonBmk.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/TraitDonBmk.java">
+      <file leaf-file-name="TraitHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/TraitHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3706">
+            <state line="614" column="51" selection-start="29021" selection-end="29058" vertical-scroll-proportion="-6.769231" vertical-offset="9480" max-vertical-offset="10370">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BenchmarkRunner.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BenchmarkRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="69" selection-start="650" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenchmarkRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drool6-Bmk/src/main/java/benchmark/BenchmarkRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="114" selection-start="208" selection-end="208" vertical-scroll-proportion="0.134009" vertical-offset="0" max-vertical-offset="888">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traitDon-config-phreak.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/traitDon-config-phreak.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="59" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1666">
+            <state line="11" column="0" selection-start="210" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenCdsBenchmarkingTrait.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTrait.java">
+      <file leaf-file-name="ReadMe.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="16" selection-start="9063" selection-end="9071" vertical-scroll-proportion="0.0" vertical-offset="3740" max-vertical-offset="4692">
+            <state line="8" column="26" selection-start="516" selection-end="516" vertical-scroll-proportion="0.15777262" vertical-offset="0" max-vertical-offset="862">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opencdsBnk-configComplexOrg-phreak.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplexOrg-phreak.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="33" selection-start="565" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamedEntryPoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/common/NamedEntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="41" selection-start="4249" selection-end="4249" vertical-scroll-proportion="0.0" vertical-offset="11327" max-vertical-offset="12359">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultKnowledgeHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/DefaultKnowledgeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="588" column="61" selection-start="24586" selection-end="24586" vertical-scroll-proportion="0.0" vertical-offset="8565" max-vertical-offset="9707">
               <folding />
             </state>
           </provider>
@@ -110,7 +167,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DynamicTypes" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -121,30 +178,43 @@
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/drools/traits/util/KBLoader.java" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/drools/traits/util/KBSessionInterface.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/drl6/pom.xml" />
         <option value="$PROJECT_DIR$/drl5/pom.xml" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BenchmarkTrait.java" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/BenchmarkTrait.java" />
         <option value="$PROJECT_DIR$/drlCommon/src/main/java/drools/traits/util/KBSessionInterface.java" />
-        <option value="$PROJECT_DIR$/drl5/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/BenchmarkInterface.java" />
-        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java" />
-        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml" />
         <option value="$PROJECT_DIR$/DynamicTypes/pom.xml" />
-        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java" />
-        <option value="$PROJECT_DIR$/drl6/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BenchmarkUtilPhreak.java" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNative.java" />
         <option value="$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkUtilPhreak.java" />
         <option value="$PROJECT_DIR$/drool6-Bmk/src/main/java/benchmark/BenchmarkUtilPhreak.java" />
-        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml" />
         <option value="$PROJECT_DIR$/drool6-Bmk/pom.xml" />
         <option value="$PROJECT_DIR$/drool5-Bmk/pom.xml" />
-        <option value="$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkRunner.java" />
-        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/traitDon-config-phreak.xml" />
-        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTrait.java" />
         <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/TraitDonBmk.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTrait.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BasicInsertMultiObject.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/benchmarking/BenchmarkUtil.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BasicDonMultiObject.java" />
+        <option value="$PROJECT_DIR$/drl5/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java" />
+        <option value="$PROJECT_DIR$/drl6/pom.xml" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinNative.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinTrait.java" />
+        <option value="$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/DefaultKnowledgeHelper.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java" />
+        <option value="$PROJECT_DIR$/drl6/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplexOrg.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplexOrg.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/traitDon-config-phreak.xml" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/highlyJoin-config-phreak.xml" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml" />
+        <option value="$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/TraitHelper.java" />
+        <option value="$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkRunner.java" />
+        <option value="$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplexOrg-phreak.xml" />
         <option value="$PROJECT_DIR$/drool6-Bmk/src/main/java/benchmark/BenchmarkRunner.java" />
+        <option value="$PROJECT_DIR$/ReadMe.txt" />
       </list>
     </option>
   </component>
@@ -161,6 +231,16 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="drl6" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -221,6 +301,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -353,164 +435,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_old_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterbmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterBmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_old_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterbmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterBmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_old_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterbmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterBmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_old_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="traits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterbmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterBmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_old_src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="traits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="benchmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterbmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masterBmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="drool6-Bmk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -666,13 +590,179 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="benchmark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facilitator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterbmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masterBmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drl5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facilitator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -685,7 +775,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking" />
@@ -716,14 +806,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="opencds.benchmarking.phreak" />
       <recent name="benchmark" />
       <recent name="drools.trait.knowledgebase.facilitator" />
       <recent name="drools.traits.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\DynamicTypes\src\main\resources\opencds\benchmarking\phreak" />
       <recent name="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\DynamicTypes\src\main\java\opencds\benchmarking\phreak" />
       <recent name="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\drool6-Bmk\lib" />
       <recent name="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\drool5-Bmk\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ASU Researches\Davide Sottara\GitHub\masterBmk\DynamicTypes\src\main\java\opencds\benchmarking\phreak" />
     </key>
   </component>
   <component name="RunManager" selected="Application.BenchmarkRunner(drl6)">
@@ -763,7 +858,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="drool6-Bmk" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -771,6 +872,26 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -795,45 +916,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -862,6 +950,35 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -936,10 +1053,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="BenchmarkRunner(drl5)profiler" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="benchmark.BenchmarkRunner" />
+      <option name="VM_PARAMETERS" value="-Xms256m -Xmx1024m -XX:MaxPermSize=256m &quot;-agentpath:F:\FixedPath\jprofiler8\bin\windows-x64\jprofilerti.dll=offline,id=1009,config=F:\FixedPath\jprofiler8\bin\config.xml&quot; &quot;-Xbootclasspath/a:F:\FixedPath\bin\agent.jar&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="drool5-Bmk" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.BenchmarkRunner(drl6)jprofiler" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BenchmarkRunner(drl5)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BenchmarkRunner(drl6)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BenchmarkRunner(drl5)profiler" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BenchmarkRunner(drl5)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BenchmarkRunner(drl6)" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -971,23 +1106,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39844617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15282215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1544196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22790202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33851278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1011,6 +1146,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinTrait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/TraitDonBmk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3706">
@@ -1022,7 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="63" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="646">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1044,11 +1186,7 @@
     <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="214" column="63" selection-start="8162" selection-end="8162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5117">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1248#1249#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,24 +1207,13 @@
     <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="76" selection-start="6611" selection-end="6611" vertical-scroll-proportion="0.0" vertical-offset="2788" max-vertical-offset="4131">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
-            <element signature="e#1202#1203#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/drools/drools-compiler/5.6.0.Final/drools-compiler-5.6.0.Final.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4692" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/masterbmk.iml">
@@ -1104,11 +1231,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drl6/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicTypes/conditional_inclusion.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="888" />
@@ -1123,7 +1245,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drl5/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="780" selection-end="957" vertical-scroll-proportion="0.49056605" vertical-offset="0" max-vertical-offset="901" />
+        <state line="26" column="0" selection-start="780" selection-end="957" vertical-scroll-proportion="0.49056605" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/sun/japex/japex/1.2.4/japex-1.2.4.jar!/com/sun/japex/Japex.class">
@@ -1141,66 +1265,9 @@
         <state line="6" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="1241" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drlCommon/src/main/java/drools/traits/util/KBSessionInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="333" selection-end="333" vertical-scroll-proportion="0.24528302" vertical-offset="0" max-vertical-offset="901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drl5/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="25" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.7924528" vertical-offset="0" max-vertical-offset="2533">
-          <folding>
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DynamicTypes/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="12" selection-start="4478" selection-end="4478" vertical-scroll-proportion="0.30454546" vertical-offset="1959" max-vertical-offset="4709">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drl6/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.3773585" vertical-offset="0" max-vertical-offset="1734">
-          <folding>
-            <element signature="method#clearVM#0;class#KBFacilitator#0" expanded="false" />
-            <element signature="method#createKBfromDrlFile#0;class#KBFacilitator#0" expanded="false" />
-            <element signature="method#createKBfromDrlSource#0;class#KBFacilitator#0" expanded="false" />
-            <element signature="method#clearVM#1;class#KBFacilitator#0" expanded="false" />
-            <element signature="method#clearVM2#0;class#KBFacilitator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2032" selection-end="2319" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="4318">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
-            <element signature="e#1202#1203#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1112" selection-end="1216" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="5168">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1248#1249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
@@ -1219,9 +1286,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNative.java">
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/TraitDonBmk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="685" selection-end="685" vertical-scroll-proportion="0.33296338" vertical-offset="125" max-vertical-offset="3689">
+        <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BasicInsertMultiObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="2873">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1230,58 +1309,183 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/benchmarking/BenchmarkUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.5626072" vertical-offset="539" max-vertical-offset="1122">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#startProfiler#0;class#BenchmarkUtil#0" expanded="false" />
-            <element signature="method#stopProfiler#0;class#BenchmarkUtil#0" expanded="false" />
-          </folding>
+        <state line="60" column="79" selection-start="2535" selection-end="2542" vertical-scroll-proportion="0.5464037" vertical-offset="447" max-vertical-offset="1309">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml">
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/BasicDonMultiObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="539" selection-end="589" vertical-scroll-proportion="0.2264151" vertical-offset="0" max-vertical-offset="901">
+        <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.91314286" vertical-offset="850" max-vertical-offset="2924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drlCommon/src/main/java/drools/traits/util/KBSessionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="827" selection-end="827" vertical-scroll-proportion="0.7614035" vertical-offset="25" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drl5/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="71" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.028571429" vertical-offset="1131" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drl6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="960" selection-end="960" vertical-scroll-proportion="0.5245714" vertical-offset="0" max-vertical-offset="875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinTrait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="0" selection-start="5029" selection-end="5029" vertical-scroll-proportion="0.20342857" vertical-offset="2185" max-vertical-offset="3162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/HighlyUsedJoinNative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="0" selection-start="4787" selection-end="4864" vertical-scroll-proportion="0.51428574" vertical-offset="1845" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="18" selection-start="7806" selection-end="7806" vertical-scroll-proportion="0.0" vertical-offset="2627" max-vertical-offset="4046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drl6/src/main/java/drools/trait/knowledgebase/facilitator/KBFacilitator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="52" selection-start="4877" selection-end="4877" vertical-scroll-proportion="0.51428574" vertical-offset="1641" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="32" selection-start="6882" selection-end="6884" vertical-scroll-proportion="0.74590164" vertical-offset="2287" max-vertical-offset="4692">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTrait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="16" selection-start="9063" selection-end="9071" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
+        <state line="243" column="103" selection-start="9870" selection-end="9870" vertical-scroll-proportion="2.534857" vertical-offset="1658" max-vertical-offset="4403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="68" selection-start="4520" selection-end="4548" vertical-scroll-proportion="0.58285713" vertical-offset="1020" max-vertical-offset="3485">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/traitDon-config-phreak.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="59" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+        <state line="12" column="70" selection-start="643" selection-end="643" vertical-scroll-proportion="0.34385964" vertical-offset="8" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="54" selection-start="561" selection-end="561" vertical-scroll-proportion="0.24035087" vertical-offset="50" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="69" selection-start="637" selection-end="637" vertical-scroll-proportion="0.32807016" vertical-offset="17" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/highlyJoin-config-phreak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="71" selection-start="640" selection-end="640" vertical-scroll-proportion="0.27017543" vertical-offset="50" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="68" selection-start="638" selection-end="638" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/TraitHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="614" column="51" selection-start="29021" selection-end="29058" vertical-scroll-proportion="-6.769231" vertical-offset="9480" max-vertical-offset="10370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingNativeComplexOrg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="21" selection-start="6920" selection-end="6920" vertical-scroll-proportion="3.4" vertical-offset="0" max-vertical-offset="4726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/OpenCdsBenchmarkingTraitComplexOrg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="51" selection-start="5011" selection-end="5022" vertical-scroll-proportion="0.36457142" vertical-offset="1704" max-vertical-offset="4046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/base/DefaultKnowledgeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="588" column="61" selection-start="24586" selection-end="24586" vertical-scroll-proportion="0.0" vertical-offset="8565" max-vertical-offset="9707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../drools/drools-core/src/main/java/org/drools/core/common/NamedEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="41" selection-start="4249" selection-end="4249" vertical-scroll-proportion="0.0" vertical-offset="11327" max-vertical-offset="12359">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/resources/opencds/benchmarking/phreak/opencdsBnk-configComplexOrg-phreak.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="565" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drool5-Bmk/src/main/java/benchmark/BenchmarkRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1184" selection-end="1348" vertical-scroll-proportion="0.4786036" vertical-offset="0" max-vertical-offset="888">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DynamicTypes/src/main/java/opencds/benchmarking/phreak/TraitDonBmk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3655">
+        <state line="13" column="69" selection-start="650" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drool6-Bmk/src/main/java/benchmark/BenchmarkRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="114" selection-start="208" selection-end="208" vertical-scroll-proportion="0.134009" vertical-offset="0" max-vertical-offset="888">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="0" selection-start="210" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="516" selection-end="516" vertical-scroll-proportion="0.15777262" vertical-offset="0" max-vertical-offset="862">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1541,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>drl6</last-edited>
+          <last-edited>openCDS</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

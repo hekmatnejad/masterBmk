@@ -4,20 +4,21 @@
     <param name="japex.contextClassLoader" value="true"/>
 
     <param name="japex.resultUnit" value="ms"/>
-    <param name="japex.warmupIterations" value="100"/>
+    <param name="japex.warmupIterations" value="25"/>
     <param name="japex.runIterations" value="1"/>
-    <param name="japex.maxStep" value="50"/>
-    <param name="japex.engine" value="rete"/>
-    <param name="japex.disableProfiler" value="true"/>
-    <param name="japex.profilingTestCase" value="test6"/>
+    <param name="japex.maxStep" value="500"/>
+    <param name="japex.engine" value="phreak"/>      <!-- rete or phreak -->
+    <param name="japex.disableProfiler" value="false"/>
+    <param name="japex.profilingTestCase" value="test1"/>
+    <param name="japex.droolsVersion" value="5"/>    <!-- 5 or 6 -->
 
-    <driver name="basic insert with multi object">
+    <driver name="OpenCDS Native">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.BasicInsertMultiObject"/>
-        <param name="description" value="Native Driver"/>
+        <param name="description" value="OpenCDS Native Driver"/>
     </driver>
-    <driver name="basic don with multi object">
+    <driver name="OpenCDS with Trait">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.BasicDonMultiObject"/>
-        <param name="description" value="Trait Driver"/>
+        <param name="description" value="OpenCDS Trait Driver"/>
     </driver>
 
     <testCase name="test1"/>
@@ -32,4 +33,6 @@
     <testCase name="test10"/>
     <testCase name="test11"/>
     <testCase name="test12"/>
+    <!--
+    -->
 </testSuite>

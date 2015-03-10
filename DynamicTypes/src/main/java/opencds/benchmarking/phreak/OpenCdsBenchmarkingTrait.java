@@ -178,8 +178,6 @@ public class OpenCdsBenchmarkingTrait extends JapexDriverBase implements JapexDr
         kbFacilitator.fireAllRules();
         kbFacilitator.clearAgenda();
 
-
-
     }
 
     @Override

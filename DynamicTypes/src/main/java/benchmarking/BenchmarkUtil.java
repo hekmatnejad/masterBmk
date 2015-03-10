@@ -60,6 +60,15 @@ public class BenchmarkUtil {
 
     public static void stopProfiler(String postfix, int maxStep, String dirName, String bmkName, String engine)
     {
+        File theDir = new File(dirName);
+        if (!theDir.exists()) {
+            try{
+                theDir.mkdir();
+            } catch(SecurityException se){
+                System.out.println(dirName+" directory cannot be created!");
+                return;
+            }
+        }
         DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         String date = dateFormat.format(new Date());
         Controller.saveSnapshot(new File(dirName+"/"+engine+"_"+bmkName+"_"+postfix+"_"+date+"("+maxStep+").jps"));

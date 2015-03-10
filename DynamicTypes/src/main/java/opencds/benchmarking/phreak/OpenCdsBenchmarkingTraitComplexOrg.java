@@ -5,6 +5,7 @@ import com.sun.japex.JapexDriver;
 import com.sun.japex.JapexDriverBase;
 import com.sun.japex.TestCase;
 import drools.traits.util.KBSessionInterface;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -17,7 +18,7 @@ import static junit.framework.Assert.assertEquals;
  * Time: 2:23 PM
  * To change this template use File | Settings | File Templates.
  */
-public class OpenCdsBenchmarkingTraitComplex extends JapexDriverBase implements JapexDriver {
+public class OpenCdsBenchmarkingTraitComplexOrg extends JapexDriverBase implements JapexDriver {
 
     private static String drl = "";
     private static int maxStep = 500;
@@ -92,16 +93,16 @@ public class OpenCdsBenchmarkingTraitComplex extends JapexDriverBase implements 
                 "@propertyReactive\n" +
                 "   //id : String \n" +
                 "end\n" +
-//                "\n" +
-//                "declare trait TC\n" +
-//                "@propertyReactive\n" +
-//                "   id : String \n" +
-//                "end\n" +
-//                "\n" +
-//                "declare trait TD\n" +
-//                "@propertyReactive\n" +
-//                "   id : String \n" +
-//                "end\n"+
+                "\n" +
+                "declare trait TC\n" +
+                "@propertyReactive\n" +
+                "   id : String \n" +
+                "end\n" +
+                "\n" +
+                "declare trait TD\n" +
+                "@propertyReactive\n" +
+                "   id : String \n" +
+                "end\n"+
                 "";
 
         String rule = "";
@@ -125,38 +126,38 @@ public class OpenCdsBenchmarkingTraitComplex extends JapexDriverBase implements 
                             "    TB tb = don( $obj , TB.class );\n" +
                             "end\n" +
                             "\n" +
-//                            "rule \"TC 1001"+i+"\"\n" +
-//                            "no-loop\n" +
-//                            "when\n" +
-//                            "    $obj : InputObject( $id : id == \"00C"+i+"\" )\n" +
-//                            "then\n" +
-//                            "    TC tc = don( $obj , TC.class );\n" +
-//                            "end\n" +
-//                            "\n" +
-//                            "\n" +
-//                            "rule \"TD 1001"+i+"\"\n" +
-//                            "no-loop\n" +
-//                            "when\n" +
-//                            "    $obj : InputObject( $id : id == \"00C"+i+"\" )\n" +
-//                            "then\n" +
-//                            "    TD td = don( $obj , TD.class );\n" +
-//                            "end\n" +
-//                            "\n" +
-//                            "\n" +
-//                            "\n" +
+                            "rule \"TC 1001"+i+"\"\n" +
+                            "no-loop\n" +
+                            "when\n" +
+                            "    $obj : InputObject( $id : id == \"00C"+i+"\" )\n" +
+                            "then\n" +
+                            "    TC tc = don( $obj , TC.class );\n" +
+                            "end\n" +
+                            "\n" +
+                            "\n" +
+                            "rule \"TD 1001"+i+"\"\n" +
+                            "no-loop\n" +
+                            "when\n" +
+                            "    $obj : InputObject( $id : id == \"00C"+i+"\" )\n" +
+                            "then\n" +
+                            "    TD td = don( $obj , TD.class );\n" +
+                            "end\n" +
+                            "\n" +
+                            "\n" +
+                            "\n" +
                             "rule \"FinalCheck"+i+"\"\n" +
                             "no-loop\n" +
                             "when\n" +
                             "    $x : TA( $ta := id == \"00A"+i+"\" )\n" +
                             "    $y : TB( $ta, $tc; )\n" +
-                               // "    $z : TC( $tc := id == \"00C"+i+"\", this isA TD )\n" +
+                            "    $z : TC( $tc := id == \"00C"+i+"\", this isA TD )\n" +
                             "then\n" +
                             "      //System.out.println($x);\n"+
                             "      //System.out.println($y);\n"+
                             "      //System.out.println($z);\n"+
                             "      //System.out.println();\n"+
                             "end\n" +
-                                    "";
+                            "";
         }
 
         drl += rule;
@@ -184,10 +185,10 @@ public class OpenCdsBenchmarkingTraitComplex extends JapexDriverBase implements 
                 kbFacilitator.setObjectProperty(obj, "tID", "00C" + j);
                 facts.add(obj);
                 kbFacilitator.insertToKB(obj);
-                //obj = kbFacilitator.getNewInstanceFromFactType();
-                //kbFacilitator.setObjectProperty(obj,"id","00C"+j);
-                //facts.add(obj);
-                //kbFacilitator.insertToKB(obj);
+                obj = kbFacilitator.getNewInstanceFromFactType();
+                kbFacilitator.setObjectProperty(obj,"id","00C"+j);
+                facts.add(obj);
+                kbFacilitator.insertToKB(obj);
             }
         } catch (InstantiationException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
