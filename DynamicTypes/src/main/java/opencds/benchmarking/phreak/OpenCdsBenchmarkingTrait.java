@@ -207,7 +207,7 @@ public class OpenCdsBenchmarkingTrait extends JapexDriverBase implements JapexDr
                 kbFacilitator.setObjectProperty( obs, "observationValue", obsValue );
 
                 facts.add(obs);
-                //kbFacilitator.insertToKB(obs);
+                kbFacilitator.insertToKB(obs);
 
             }
         } catch (InstantiationException e) {
@@ -221,14 +221,12 @@ public class OpenCdsBenchmarkingTrait extends JapexDriverBase implements JapexDr
 
     @Override
     public void warmup(TestCase testCase) {
-        for ( Object obj:facts ) {
-
-            kbFacilitator.insertToKB(obj);
-        }
         long start = System.nanoTime();
         kbFacilitator.fireAllRules();
         warmups[tCounter][wCounter++] += (System.nanoTime()-start)/(double)1e6;
         assertEquals(0, kbFacilitator.clearVM());
+        for(Object obj:facts)
+            kbFacilitator.insertToKB(obj);
         System.out.println("WT: " + (System.nanoTime() - start) / 1000000);
     }
 
@@ -237,14 +235,12 @@ public class OpenCdsBenchmarkingTrait extends JapexDriverBase implements JapexDr
 
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)
             BenchmarkUtil.startProfiler(this.getClass().getSimpleName());
-        for ( Object obj:facts ) {
-
-            kbFacilitator.insertToKB(obj);
-        }
+//        for(Object obj:facts)
+//            kbFacilitator.insertToKB(obj);
         int fired = kbFacilitator.fireAllRules();
         System.out.println(fired);
 
-        assertEquals(0, kbFacilitator.clearVM());
+//        assertEquals(0, kbFacilitator.clearVM());
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)  {
             BenchmarkUtil.stopProfiler(testCase.getName(), maxStep, "jprofiler", this.getClass().getSimpleName(), engine.name());
             System.out.println(">>>Profiling is completed!!!");

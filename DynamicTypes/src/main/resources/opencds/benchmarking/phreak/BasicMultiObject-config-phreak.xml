@@ -6,11 +6,10 @@
     <param name="japex.resultUnit" value="ms"/>
     <param name="japex.warmupIterations" value="25"/>
     <param name="japex.runIterations" value="1"/>
-    <param name="japex.maxStep" value="500"/>
+    <param name="japex.maxStep" value="200"/>
     <param name="japex.engine" value="phreak"/>      <!-- rete or phreak -->
     <param name="japex.disableProfiler" value="false"/>
-    <param name="japex.profilingTestCase" value="test1"/>
-    <param name="japex.droolsVersion" value="5"/>    <!-- 5 or 6 -->
+    <param name="japex.profilingTestCase" value="test2"/>
 
     <driver name="OpenCDS Native">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.BasicInsertMultiObject"/>
@@ -22,7 +21,7 @@
     </driver>
 
     <testCase name="test1"/>
-    <testCase name="test2"/>
+    <testCase name="test2"/>    <!--
     <testCase name="test3"/>
     <testCase name="test4"/>
     <testCase name="test5"/>
@@ -32,7 +31,7 @@
     <testCase name="test9"/>
     <testCase name="test10"/>
     <testCase name="test11"/>
-    <testCase name="test12"/>
+    <testCase name="test12"/>       -->
     <!--
     -->
 </testSuite>

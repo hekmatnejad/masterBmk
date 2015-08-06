@@ -18,11 +18,11 @@ public class BenchmarkRunner extends BenchmarkUtil {
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //        OpenCdsBenchmarkingTraitComplex.setKbFacilitator(new KBFacilitator());
 //        OpenCdsBenchmarkingNativeComplex.setKbFacilitator(new KBFacilitator());
-//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml", "japex");
+//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-Complex-phreak.xml", "japex");
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
         OpenCdsBenchmarkingTraitComplexOrg.setKbFacilitator(new KBFacilitator());
         OpenCdsBenchmarkingNativeComplexOrg.setKbFacilitator(new KBFacilitator());
-        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-configComplexOrg-phreak.xml", "japex");
+        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-ComplexOrg-phreak.xml", "japex");
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //        HighlyUsedJoinNative.setKbFacilitator(new KBFacilitator());
 //        HighlyUsedJoinTrait.setKbFacilitator(new KBFacilitator());

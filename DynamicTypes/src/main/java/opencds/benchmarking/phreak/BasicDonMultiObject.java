@@ -54,7 +54,6 @@ public class BasicDonMultiObject extends JapexDriverBase implements JapexDriver 
         profilingTestCase = getParam("japex.profilingTestCase");
         warmups = new double[TN][WC];
         String strTraitable = "import org.drools.core.factmodel.traits.Traitable;\n";
-        //if(getParam("japex.droolsVersion").startsWith("5"))
         if(kbFacilitator.getDroolsVersion().startsWith("5"))
             strTraitable = "import org.drools.factmodel.traits.Traitable;\n";
 
@@ -111,7 +110,7 @@ public class BasicDonMultiObject extends JapexDriverBase implements JapexDriver 
             Object obj = kbFacilitator.getNewInstanceFromFactType();
             kbFacilitator.setObjectProperty(obj, "id", "00A001");
             facts.add(obj);
-            //kbFacilitator.insertToKB(obj);
+            kbFacilitator.insertToKB(obj);
         } catch (InstantiationException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         } catch (IllegalAccessException e) {
@@ -123,14 +122,12 @@ public class BasicDonMultiObject extends JapexDriverBase implements JapexDriver 
 
     @Override
     public void warmup(TestCase testCase) {
-        for ( Object obj:facts ) {
-
-            kbFacilitator.insertToKB(obj);
-        }
         long start = System.nanoTime();
         kbFacilitator.fireAllRules();
         warmups[tCounter][wCounter++] += (System.nanoTime()-start)/(double)1e6;
         assertEquals(0, kbFacilitator.clearVM());
+        for ( Object obj:facts )
+            kbFacilitator.insertToKB(obj);
         System.out.println("WT: " + (System.nanoTime() - start) / 1000000);
     }
 
@@ -139,14 +136,12 @@ public class BasicDonMultiObject extends JapexDriverBase implements JapexDriver 
 
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)
             BenchmarkUtil.startProfiler(this.getClass().getSimpleName());
-        for ( Object obj:facts ) {
-
-            kbFacilitator.insertToKB(obj);
-        }
+//        for ( Object obj:facts )
+//            kbFacilitator.insertToKB(obj);
         int fired = kbFacilitator.fireAllRules();
         System.out.println(fired);
 
-        assertEquals(0, kbFacilitator.clearVM());
+//        assertEquals(0, kbFacilitator.clearVM());
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)  {
             BenchmarkUtil.stopProfiler(testCase.getName(), maxStep, "jprofiler", this.getClass().getSimpleName(), engine.name());
             System.out.println(">>>Profiling is completed!!!");

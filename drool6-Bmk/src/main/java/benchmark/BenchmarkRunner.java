@@ -15,25 +15,32 @@ public class BenchmarkRunner extends BenchmarkUtil {
 //        OpenCdsBenchmarkingTrait.setKbFacilitator(new KBFacilitator());
 //        OpenCdsBenchmarkingNative.setKbFacilitator(new KBFacilitator());
 //        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-phreak.xml","japex");
+//        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //        OpenCdsBenchmarkingTraitComplex.setKbFacilitator(new KBFacilitator());
 //        OpenCdsBenchmarkingNativeComplex.setKbFacilitator(new KBFacilitator());
-//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-configComplex-phreak.xml", "japex");
+//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-Complex-phreak.xml", "japex");
+//        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-        OpenCdsBenchmarkingTraitComplexOrg.setKbFacilitator(new KBFacilitator());
-        OpenCdsBenchmarkingNativeComplexOrg.setKbFacilitator(new KBFacilitator());
-        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-configComplexOrg-phreak.xml", "japex");
+//        OpenCdsBenchmarkingTraitComplexOrg.setKbFacilitator(new KBFacilitator());
+//        OpenCdsBenchmarkingNativeComplexOrg.setKbFacilitator(new KBFacilitator());
+//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-ComplexOrg-phreak.xml", "japex");
+//        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //        HighlyUsedJoinNative.setKbFacilitator(new KBFacilitator());
 //        HighlyUsedJoinTrait.setKbFacilitator(new KBFacilitator());
 //        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/highlyJoin-config-phreak.xml", "japex");
+//        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //        TraitDonBmk.setKbFacilitator(new KBFacilitator());
 //        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/traitDon-config-phreak.xml", "japex");
+//        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-//        BasicInsertMultiObject.setKbFacilitator(new KBFacilitator());
-//        BasicDonMultiObject.setKbFacilitator(new KBFacilitator());
-//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml", "japex");
+        BasicInsertMultiObject.setKbFacilitator(new KBFacilitator());
+        BasicDonMultiObject.setKbFacilitator(new KBFacilitator());
+        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml", "japex");
+        System.gc();
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 
     }
 

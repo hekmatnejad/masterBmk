@@ -8,9 +8,8 @@
     <param name="japex.runIterations" value="1"/>
     <param name="japex.maxStep" value="500"/>
     <param name="japex.engine" value="phreak"/>  <!-- rete or phreak -->
-    <param name="japex.disableProfiler" value="true"/>
+    <param name="japex.disableProfiler" value="false"/>
     <param name="japex.profilingTestCase" value="test1"/>
-    <param name="japex.droolsVersion" value="5"/>     <!-- 5 or 6 -->
 
     <driver name="OpenCDS Native Complex">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.OpenCdsBenchmarkingNativeComplex"/>
@@ -24,7 +23,7 @@
     <!--
     -->
 
-    <testCase name="test1"/>
+    <testCase name="test1"/>    <!--
     <testCase name="test2"/>
     <testCase name="test3"/>
     <testCase name="test4"/>
@@ -35,5 +34,5 @@
     <testCase name="test9"/>
     <testCase name="test10"/>
     <testCase name="test11"/>
-    <testCase name="test12"/>
+    <testCase name="test12"/>    -->
 </testSuite>

@@ -38,7 +38,8 @@ public class BenchmarkUtil {
         Japex japex = new Japex();
         japex.setHtml(true);
         //if(java.nio.file.Files.notExists(Paths.get(dirName)))
-        File theDir = new File(dirName);
+        String subDir = fName.substring(fName.lastIndexOf('/')).replaceFirst("config-","").replaceFirst(".xml","");
+        File theDir = new File(dirName+subDir);
         if (!theDir.exists()) {
             try{
                 theDir.mkdir();
@@ -47,7 +48,7 @@ public class BenchmarkUtil {
                 return;
             }
         }
-        japex.setOutputDirectory(new File(dirName));
+        japex.setOutputDirectory(new File(dirName+subDir));
         //japex.setOutputWriter( new PrintWriter(System.out));
         japex.run(  ClassLoader.getSystemResource(fName).getPath().replaceAll("%20", " ") );
     }

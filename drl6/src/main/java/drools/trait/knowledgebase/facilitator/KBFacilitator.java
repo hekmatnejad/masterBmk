@@ -75,7 +75,6 @@ public class KBFacilitator implements KBSessionInterface {
     public void createInstanceFromFactType(String strPackage, String strClassName) throws InstantiationException, IllegalAccessException{
         if(selfObject.inputObject==null)
             selfObject.inputObject = selfObject.kieSession.getKieBase().getFactType( strPackage, strClassName );
-        Object obj = selfObject.inputObject.newInstance();
     }
 
     @Override

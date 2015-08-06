@@ -166,15 +166,12 @@ public class OpenCdsBenchmarkingNative extends JapexDriverBase implements JapexD
 
     @Override
     public void warmup(TestCase testCase) {
-
-        for(Object obj:facts){
-            kbFacilitator.insertToKB(obj);
-        }
-
         long start = System.nanoTime();
         kbFacilitator.fireAllRules();
         warmups[tCounter][wCounter++] += (System.nanoTime()-start)/(double)1e6;
         assertEquals(0,kbFacilitator.clearVM());
+        for(Object obj:facts)
+            kbFacilitator.insertToKB(obj);
         System.out.println("WT: "+ (System.nanoTime()-start)/1000000 );
     }
 
@@ -182,14 +179,12 @@ public class OpenCdsBenchmarkingNative extends JapexDriverBase implements JapexD
     public void run(TestCase testCase) {
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)
             BenchmarkUtil.startProfiler(this.getClass().getSimpleName());
-        for(Object obj:facts){
-            kbFacilitator.insertToKB(obj);
-        }
-
+//        for(Object obj:facts)
+//            kbFacilitator.insertToKB(obj);
         int fired = kbFacilitator.fireAllRules();
         System.out.println(fired);
 
-        assertEquals(0,kbFacilitator.clearVM());
+//        assertEquals(0,kbFacilitator.clearVM());
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)  {
             BenchmarkUtil.stopProfiler(testCase.getName(), maxStep, "jprofiler", this.getClass().getSimpleName(), engine.name());
             System.out.println(">>>Profiling is completed!!!");

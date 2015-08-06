@@ -65,7 +65,7 @@ public class TraitDonBmk extends JapexDriverBase implements JapexDriver {
 
         System.out.println("\ninitializeDriver");
 
-        drl = "package drools.traits.benchmarks;\n" +
+        drl = "package opencds.benchmarking.phreak;\n" +
                 "\n" +
 //                "import org.drools.core.factmodel.traits.Traitable;\n" +
                 strTraitable +
@@ -132,8 +132,6 @@ public class TraitDonBmk extends JapexDriverBase implements JapexDriver {
 
         drl = drlHeader + strClass + strTrait + rule;
 
-//        System.out.println(drl);
-
         kbFacilitator.createKBFacilitator(false,"",drl,engine,true);
         kbFacilitator.fireAllRules();
         kbFacilitator.clearAgenda();
@@ -142,14 +140,14 @@ public class TraitDonBmk extends JapexDriverBase implements JapexDriver {
 
         try {
             for ( int j = 0; j < maxStep; j++ ) {
-                kbFacilitator.createInstanceFromFactType( "drools.traits.benchmarks", "TestClass" );
+                kbFacilitator.createInstanceFromFactType( "opencds.benchmarking.phreak", "TestClass" );
 
                 Object obj = null;
                 obj = kbFacilitator.getNewInstanceFromFactType();
                 for(int s = 0; s< hardFieldNum; s++)
                     kbFacilitator.setObjectProperty(obj, "hField" + s, "val-00" + (0));
                 facts.add(obj);
-                //kbFacilitator.insertToKB(obj);
+                kbFacilitator.insertToKB(obj);
 
 //                for ( Field fld : inputObject.getFactClass().getFields() ) {
 //                    System.out.println( fld );
@@ -167,14 +165,12 @@ public class TraitDonBmk extends JapexDriverBase implements JapexDriver {
 
     @Override
     public void warmup(TestCase testCase) {
-        for ( Object obj:facts ) {
-
-            kbFacilitator.insertToKB(obj);
-        }
         long start = System.nanoTime();
         kbFacilitator.fireAllRules();
         warmups[tCounter][wCounter++] += (System.nanoTime()-start)/(double)1e6;
         assertEquals(0, kbFacilitator.clearVM());
+        for(Object obj:facts)
+            kbFacilitator.insertToKB(obj);
         System.out.println("WT: " + (System.nanoTime() - start) / 1000000);
     }
 
@@ -182,14 +178,12 @@ public class TraitDonBmk extends JapexDriverBase implements JapexDriver {
     public void run(TestCase testCase) {
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)
             BenchmarkUtil.startProfiler(this.getClass().getSimpleName());
-        for ( Object obj:facts ) {
-
-            kbFacilitator.insertToKB(obj);
-        }
+//        for(Object obj:facts)
+//            kbFacilitator.insertToKB(obj);
         int fired = kbFacilitator.fireAllRules();
         System.out.println(fired);
 
-        assertEquals(0, kbFacilitator.clearVM());
+//        assertEquals(0, kbFacilitator.clearVM());
         if(testCase.getName().equalsIgnoreCase(profilingTestCase) && activeProfile)  {
             BenchmarkUtil.stopProfiler(testCase.getName(), maxStep, "jprofiler", this.getClass().getSimpleName(), engine.name());
             System.out.println(">>>Profiling is completed!!!");

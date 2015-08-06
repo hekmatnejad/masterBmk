@@ -58,7 +58,6 @@ public class OpenCdsBenchmarkingTraitComplexOrg extends JapexDriverBase implemen
         System.out.println("\ninitializeDriver");
 
         String strTraitable = "import org.drools.core.factmodel.traits.Traitable;\n";
-        //if(getParam("japex.droolsVersion").startsWith("5"))
         if(kbFacilitator.getDroolsVersion().startsWith("5"))
             strTraitable = "import org.drools.factmodel.traits.Traitable;\n";
 

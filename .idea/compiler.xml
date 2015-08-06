@@ -22,47 +22,257 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="cdi-example" />
-        <module name="cdi-example-with-inclusion" />
-        <module name="default-kiesession" />
-        <module name="default-kiesession-from-file" />
         <module name="drl5" />
         <module name="drl6" />
         <module name="drlCommon" />
         <module name="drool5-Bmk" />
         <module name="drool6-Bmk" />
-        <module name="drools-beliefs" />
-        <module name="drools-compiler" />
-        <module name="drools-core" />
-        <module name="drools-decisiontables" />
-        <module name="drools-examples" />
-        <module name="drools-jsr94" />
-        <module name="drools-persistence-jpa" />
-        <module name="drools-pmml" />
-        <module name="drools-reteoo" />
-        <module name="drools-scorecards" />
-        <module name="drools-templates" />
-        <module name="drools-verifier" />
-        <module name="drools-workbench-models-commons" />
-        <module name="drools-workbench-models-datamodel-api" />
-        <module name="drools-workbench-models-guided-dtable" />
-        <module name="drools-workbench-models-guided-dtree" />
-        <module name="drools-workbench-models-guided-scorecard" />
-        <module name="drools-workbench-models-guided-template" />
-        <module name="drools-workbench-models-test-scenarios" />
-        <module name="kie-ci" />
-        <module name="kie-ci-osgi" />
-        <module name="kie-maven-plugin" />
-        <module name="kie-module-from-multiple-files" />
-        <module name="kiebase-inclusion" />
-        <module name="kiecontainer-from-kierepo" />
-        <module name="kiefilesystem-example" />
-        <module name="kiemodulemodel-example" />
-        <module name="knowledge-api" />
-        <module name="multiple-kbases" />
-        <module name="named-kiesession" />
-        <module name="named-kiesession-from-file" />
         <module name="openCDS" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-beliefs" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-beliefs" />
+      </profile>
+      <profile default="false" name="Annotation profile for kiefilesystem-example" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kiefilesystem-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for multiple-kbases" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="multiple-kbases" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-guided-scorecard" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-guided-scorecard" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-examples" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for default-kiesession-from-file" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="default-kiesession-from-file" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-commons" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-commons" />
+      </profile>
+      <profile default="false" name="Annotation profile for kiebase-inclusion" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kiebase-inclusion" />
+      </profile>
+      <profile default="false" name="Annotation profile for cdi-example-with-inclusion" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cdi-example-with-inclusion" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-reteoo" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-reteoo" />
+      </profile>
+      <profile default="false" name="Annotation profile for kie-ci-osgi" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kie-ci-osgi" />
+      </profile>
+      <profile default="false" name="Annotation profile for named-kiesession" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="named-kiesession" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-datamodel-api" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-datamodel-api" />
+      </profile>
+      <profile default="false" name="Annotation profile for kiemodulemodel-example" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kiemodulemodel-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-verifier" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-verifier" />
+      </profile>
+      <profile default="false" name="Annotation profile for kie-maven-plugin" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kie-maven-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-persistence-jpa" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-persistence-jpa" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-guided-dtable" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-guided-dtable" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-pmml" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-pmml" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-core" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for kiecontainer-from-kierepo" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kiecontainer-from-kierepo" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-decisiontables" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-decisiontables" />
+      </profile>
+      <profile default="false" name="Annotation profile for default-kiesession" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="default-kiesession" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-compiler" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-compiler" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-guided-dtree" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-guided-dtree" />
+      </profile>
+      <profile default="false" name="Annotation profile for cdi-example" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cdi-example" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-test-scenarios" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-test-scenarios" />
+      </profile>
+      <profile default="false" name="Annotation profile for knowledge-api" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="knowledge-api" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-jsr94" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-jsr94" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-templates" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-templates" />
+      </profile>
+      <profile default="false" name="Annotation profile for named-kiesession-from-file" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="named-kiesession-from-file" />
+      </profile>
+      <profile default="false" name="Annotation profile for kie-module-from-multiple-files" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kie-module-from-multiple-files" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-workbench-models-guided-template" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-workbench-models-guided-template" />
+      </profile>
+      <profile default="false" name="Annotation profile for drools-scorecards" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="drools-scorecards" />
+      </profile>
+      <profile default="false" name="Annotation profile for kie-ci" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="kie-ci" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -70,6 +280,11 @@
       <module name="cdi-example-with-inclusion" target="1.6" />
       <module name="default-kiesession" target="1.6" />
       <module name="default-kiesession-from-file" target="1.6" />
+      <module name="drl5" target="1.5" />
+      <module name="drl6" target="1.5" />
+      <module name="drlCommon" target="1.8" />
+      <module name="drool5-Bmk" target="1.8" />
+      <module name="drool6-Bmk" target="1.8" />
       <module name="drools-beliefs" target="1.6" />
       <module name="drools-compiler" target="1.6" />
       <module name="drools-core" target="1.6" />
@@ -102,10 +317,11 @@
       <module name="kiefilesystem-example" target="1.6" />
       <module name="kiemodulemodel-example" target="1.6" />
       <module name="knowledge-api" target="1.6" />
+      <module name="masterbmk" target="1.8" />
       <module name="multiple-kbases" target="1.6" />
       <module name="named-kiesession" target="1.6" />
       <module name="named-kiesession-from-file" target="1.6" />
+      <module name="openCDS" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
-
