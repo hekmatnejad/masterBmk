@@ -3,11 +3,22 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-beliefs" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-compiler" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-decisiontables" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-persistence-jpa" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-reteoo" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/drools-templates" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/../drools/kie-ci-osgi" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../drools/pom.xml" />
+        <option value="$PROJECT_DIR$/../vacds-kb-integration/pom.xml" />
       </list>
     </option>
   </component>
@@ -15,4 +26,3 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
-

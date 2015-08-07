@@ -44,5 +44,7 @@
     <file url="file://$PROJECT_DIR$/drlCommon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drool5-Bmk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/drool6-Bmk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vacds-kb-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vacds-kb-integration/drlCommon" charset="UTF-8" />
   </component>
 </project>

@@ -4,7 +4,7 @@
     <param name="japex.contextClassLoader" value="true"/>
 
     <param name="japex.resultUnit" value="ms"/>
-    <param name="japex.warmupIterations" value="100"/>
+    <param name="japex.warmupIterations" value="10"/>
     <param name="japex.runIterations" value="1"/>
     <param name="japex.engine" value="rete"/>       <!-- rete or phreak -->
     <param name="japex.disableProfiler" value="true"/>
@@ -13,12 +13,12 @@
     <driver name="trait don benchmark on number of fields 1">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.TraitDonBmk"/>
         <param name="description" value="trait Don Driver"/>
-        <param name="japex.maxStep" value="100"/>
+        <param name="japex.maxStep" value="10"/>
     </driver>
     <driver name="trait don benchmark on number of fields 2">
         <param name="japex.driverClass" value="opencds.benchmarking.phreak.TraitDonBmk"/>
         <param name="description" value="trait Don Driver"/>
-        <param name="japex.maxStep" value="500"/>
+        <param name="japex.maxStep" value="50"/>
     </driver>
 
 

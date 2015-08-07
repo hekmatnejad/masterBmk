@@ -155,6 +155,13 @@ public class KBFacilitator implements KBSessionInterface {
             for(DefaultFactHandle factHandle : cloneFactHandles)
                 ksession.retract(factHandle);
 
+        if(ksession.getFactCount()>0){
+            factHandles = ksession.getFactHandles();
+            cloneFactHandles = new ArrayList<DefaultFactHandle>(factHandles);
+            for(DefaultFactHandle factHandle : cloneFactHandles)
+                ksession.retract(factHandle);
+        }
+
         return ksession.getFactCount();
     }
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../vacds-kb-integration/KBIntegration.iml" filepath="$PROJECT_DIR$/../vacds-kb-integration/KBIntegration.iml" />
       <module fileurl="file://$PROJECT_DIR$/../drools/drools-examples-cdi/cdi-example/cdi-example.iml" filepath="$PROJECT_DIR$/../drools/drools-examples-cdi/cdi-example/cdi-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/../drools/drools-examples-cdi/cdi-example-with-inclusion/cdi-example-with-inclusion.iml" filepath="$PROJECT_DIR$/../drools/drools-examples-cdi/cdi-example-with-inclusion/cdi-example-with-inclusion.iml" />
       <module fileurl="file://$PROJECT_DIR$/../drools/drools-examples-api/default-kiesession/default-kiesession.iml" filepath="$PROJECT_DIR$/../drools/drools-examples-api/default-kiesession/default-kiesession.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/drl5/drl5.iml" filepath="$PROJECT_DIR$/drl5/drl5.iml" />
       <module fileurl="file://$PROJECT_DIR$/drl6/drl6.iml" filepath="$PROJECT_DIR$/drl6/drl6.iml" />
       <module fileurl="file://$PROJECT_DIR$/drlCommon/drlCommon.iml" filepath="$PROJECT_DIR$/drlCommon/drlCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vacds-kb-integration/drlCommon/drlCommon (1) (KBIntegration).iml" filepath="$PROJECT_DIR$/../vacds-kb-integration/drlCommon/drlCommon (1) (KBIntegration).iml" />
       <module fileurl="file://$PROJECT_DIR$/drool5-Bmk/drool5-Bmk.iml" filepath="$PROJECT_DIR$/drool5-Bmk/drool5-Bmk.iml" />
       <module fileurl="file://$PROJECT_DIR$/drool6-Bmk/drool6-Bmk.iml" filepath="$PROJECT_DIR$/drool6-Bmk/drool6-Bmk.iml" />
       <module fileurl="file://$PROJECT_DIR$/../drools/drools-beliefs/drools-beliefs.iml" filepath="$PROJECT_DIR$/../drools/drools-beliefs/drools-beliefs.iml" />
@@ -51,4 +53,3 @@
     </modules>
   </component>
 </project>
-

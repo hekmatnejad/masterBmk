@@ -1,6 +1,8 @@
 package benchmark;
 
 import benchmarking.BenchmarkUtil;
+import com.cognitivemedicine.benchmarking.LogicalModelStaticMapping;
+import com.cognitivemedicine.benchmarking.PhysicalModelNoMapping;
 import drools.trait.knowledgebase.facilitator.KBFacilitator;
 import opencds.benchmarking.phreak.*;
 
@@ -20,9 +22,9 @@ public class BenchmarkRunner extends BenchmarkUtil {
 //        OpenCdsBenchmarkingNativeComplex.setKbFacilitator(new KBFacilitator());
 //        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-Complex-phreak.xml", "japex");
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-        OpenCdsBenchmarkingTraitComplexOrg.setKbFacilitator(new KBFacilitator());
-        OpenCdsBenchmarkingNativeComplexOrg.setKbFacilitator(new KBFacilitator());
-        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-ComplexOrg-phreak.xml", "japex");
+//        OpenCdsBenchmarkingTraitComplexOrg.setKbFacilitator(new KBFacilitator());
+//        OpenCdsBenchmarkingNativeComplexOrg.setKbFacilitator(new KBFacilitator());
+//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/opencdsBnk-config-ComplexOrg-phreak.xml", "japex");
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 //        HighlyUsedJoinNative.setKbFacilitator(new KBFacilitator());
 //        HighlyUsedJoinTrait.setKbFacilitator(new KBFacilitator());
@@ -35,6 +37,10 @@ public class BenchmarkRunner extends BenchmarkUtil {
 //        BasicDonMultiObject.setKbFacilitator(new KBFacilitator());
 //        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml", "japex");
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+
+        LogicalModelStaticMapping.setKbFacilitator(new KBFacilitator());
+        PhysicalModelNoMapping.setKbFacilitator(new KBFacilitator());
+        runBenchmarkFromConfigFile("benchmarking/PhysicalAndLogicalModels.xml","japex");
 
     }
 

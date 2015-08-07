@@ -25,6 +25,7 @@
         <module name="drl5" />
         <module name="drl6" />
         <module name="drlCommon" />
+        <module name="drlCommon (1) (KBIntegration)" />
         <module name="drool5-Bmk" />
         <module name="drool6-Bmk" />
         <module name="openCDS" />
@@ -275,16 +276,17 @@
         <module name="kie-ci" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="cdi-example" target="1.6" />
       <module name="cdi-example-with-inclusion" target="1.6" />
       <module name="default-kiesession" target="1.6" />
       <module name="default-kiesession-from-file" target="1.6" />
       <module name="drl5" target="1.5" />
       <module name="drl6" target="1.5" />
-      <module name="drlCommon" target="1.8" />
-      <module name="drool5-Bmk" target="1.8" />
-      <module name="drool6-Bmk" target="1.8" />
+      <module name="drlCommon" target="1.7" />
+      <module name="drlCommon (1) (KBIntegration)" target="1.7" />
+      <module name="drool5-Bmk" target="1.7" />
+      <module name="drool6-Bmk" target="1.7" />
       <module name="drools-beliefs" target="1.6" />
       <module name="drools-compiler" target="1.6" />
       <module name="drools-core" target="1.6" />
@@ -308,6 +310,7 @@
       <module name="drools-workbench-models-guided-scorecard" target="1.6" />
       <module name="drools-workbench-models-guided-template" target="1.6" />
       <module name="drools-workbench-models-test-scenarios" target="1.6" />
+      <module name="KBIntegration" target="1.7" />
       <module name="kie-ci" target="1.6" />
       <module name="kie-ci-osgi" target="1.6" />
       <module name="kie-maven-plugin" target="1.6" />
@@ -317,11 +320,11 @@
       <module name="kiefilesystem-example" target="1.6" />
       <module name="kiemodulemodel-example" target="1.6" />
       <module name="knowledge-api" target="1.6" />
-      <module name="masterbmk" target="1.8" />
+      <module name="masterbmk" target="1.7" />
       <module name="multiple-kbases" target="1.6" />
       <module name="named-kiesession" target="1.6" />
       <module name="named-kiesession-from-file" target="1.6" />
-      <module name="openCDS" target="1.5" />
+      <module name="openCDS" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

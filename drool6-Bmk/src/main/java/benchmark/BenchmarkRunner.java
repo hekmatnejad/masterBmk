@@ -1,6 +1,8 @@
 package benchmark;
 
 import benchmarking.BenchmarkUtil;
+import com.cognitivemedicine.benchmarking.LogicalModelStaticMapping;
+import com.cognitivemedicine.benchmarking.PhysicalModelNoMapping;
 import drools.trait.knowledgebase.facilitator.KBFacilitator;
 import opencds.benchmarking.phreak.*;
 
@@ -36,11 +38,15 @@ public class BenchmarkRunner extends BenchmarkUtil {
 //        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/traitDon-config-phreak.xml", "japex");
 //        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
-        BasicInsertMultiObject.setKbFacilitator(new KBFacilitator());
-        BasicDonMultiObject.setKbFacilitator(new KBFacilitator());
-        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml", "japex");
-        System.gc();
+//        BasicInsertMultiObject.setKbFacilitator(new KBFacilitator());
+//        BasicDonMultiObject.setKbFacilitator(new KBFacilitator());
+//        runBenchmarkFromConfigFile("opencds/benchmarking/phreak/BasicMultiObject-config-phreak.xml", "japex");
+//        System.gc();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
+
+        LogicalModelStaticMapping.setKbFacilitator(new KBFacilitator());
+        PhysicalModelNoMapping.setKbFacilitator(new KBFacilitator());
+        runBenchmarkFromConfigFile("benchmarking/PhysicalAndLogicalModels.xml","japex");
 
     }
 
